@@ -1,4 +1,4 @@
-package home.practice.flink.data.streamin.examples;
+package home.practice.java.streaming.examples;
 
 import java.util.*;
 import java.util.stream.Collectors;
