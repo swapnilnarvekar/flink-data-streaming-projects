@@ -63,6 +63,9 @@ public class GroupingByFruitsByExample {
         fruit = new Fruit("Grapes", 100, 250.00);
         fruits.add(fruit);
 
+        fruit = new Fruit("Banana", 25, 500.00);
+        fruits.add(fruit);
+
         doGroupByFruitName(fruits);
         doGroupByFruitNameAndSumOfItsQuantities(fruits);
         doGroupByFruitNameAndSumOfItsPrices(fruits);
