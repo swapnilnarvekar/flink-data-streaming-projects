@@ -14,4 +14,8 @@ public class ValidStudentMarksFilter implements FilterFunction<String> {
         }
         return false;
     }
+
+    private void testMethod(){
+        System.out.println("This is test method");
+    }
 }
